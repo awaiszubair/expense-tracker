@@ -69,7 +69,7 @@ const InputBar = ({list, stateName,setName, setPass,statePass,ID, setID,setState
          type="text" name='name' placeholder='Enter Product' value={stateName}  onChange={onTextChange} style={{padding:1,marginRight:3}}
         /><br />
         <Input 
-         type="text" name='pass' placeholder='Enter Price' value={statePass} onChange={onTextChange}  style={{padding:1}} 
+         type="number" name='pass' placeholder='Enter Price' value={statePass} onChange={onTextChange}  style={{padding:1}} 
          />
          <br />
          <Button onClick={onChange}>Submit</Button>
