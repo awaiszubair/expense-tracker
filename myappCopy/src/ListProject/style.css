@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main{
+    min-height: 100px;
+    /* border: 1px solid black; */
+    background-color: #d9cece;
+    box-shadow: 1rem;
+    min-width: 20rem;
+    padding: 1rem;
+    margin-top: 5rem;
+}
+.inputBar{
+    /* border: 1px solid black; */
+    padding: 1rem;
+}
+.listDisplay{
+    /* border: 1px solid black; */
+    padding: 1rem;
+    margin-top: 1rem;
+}
+.nestList{
+    /* margin-top: 1rem; */
+    padding: 1rem;
+    /* display: flex; */
+}
+.nestList{list-style-type: none;}
+.nestList li{margin-top: 1rem;border: 1px solid brown;padding: 1rem; }
+
+
+
+.red{color: red;}
