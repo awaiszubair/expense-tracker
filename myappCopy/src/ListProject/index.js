@@ -4,7 +4,7 @@ import ListDisplay from './listDisplay'
 import "./style.css"
 
 var list = [
-    {name:"Charger",pass:"10"}
+    {name:"Charger",pass:10}
 ]
 const Index = ({stateName,setName,statePass,setPass,ID,setID}) => {
     const [state, setState] = useState(list);
