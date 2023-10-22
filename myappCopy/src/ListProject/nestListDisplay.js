@@ -32,7 +32,8 @@ const NestListDisplay = ({list,id, setName,setPass,setID,comList,ID,setd,delID,d
   return (
     <li data-id={id}>
         <div><span>Product: </span> <span>{list.name}</span></div>
-        <div><span className='red'>Price: </span> <span className='red'>${list.pass}</span></div>
+        // <div><span className='red'>Price: </span> <span className='red'>${list.pass}</span></div>
+     <div><span className='red'>Price: $</span><span className='red'>{list.pass}</span></div>
         <button onClick={update} style={{padding:'0.3rem',color:'white',background:'black',width:'60px'}}>Edit</button>
         <button onClick={deleteList} style={{padding:'0.3rem',color:'white',background:'black',width:'60px',marginLeft:'0.5rem'}}>Delete</button>
         {/* {console.log("LIST FROM NESTED LISTS ",list.name, "AND", list.pass)} */}
